@@ -7,7 +7,7 @@ const cors = require("cors"); // para las peticiones
 const reviews = require(__dirname + '/routes/reviews');   
 const users = require(__dirname + '/routes/users');  
 
-mongoose.connect('mongodb://mymongodb/FunBox',            // Conectar con BD en Mongo
+mongoose.connect('mongodb://mymongodbfunbox/FunBox',            // Conectar con BD en Mongo
     {useNewUrlParser: true});
 
 let app = express();                                            // Inicializar Express

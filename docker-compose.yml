@@ -7,12 +7,12 @@ services:
     build: .
     restart: unless-stopped
     links:
-      - mymongodb
+      - mymongodbfunbox
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
-  mymongodb:
-    container_name: mymongodatabase
+  mymongodbfunbox:
+    container_name: mymongodatabasefunbox
     image: mongo
     ports:
       - "27019:27017"
