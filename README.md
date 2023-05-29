@@ -1,1 +1,2 @@
-# FunBox-back-putty
+# FunBox-Back
+Backend Application for FunBox
