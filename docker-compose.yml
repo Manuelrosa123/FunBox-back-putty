@@ -3,7 +3,7 @@ services:
   app:
     container_name: funBox
     ports:
-      - "8081:8080"
+      - "8080:8080"
     build: .
     restart: unless-stopped
     links:
